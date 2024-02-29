@@ -1,0 +1,87 @@
+
+html{
+  height: 100vh;
+}
+/* Colori principali */
+body {
+  background-image:url(./background.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  font-family: sans-serif;
+}
+
+.container {
+  max-width: 960px;
+  margin: 30px auto;
+  padding: 80px;
+  background: rgba(0, 0, 0, 0.4);
+  border-radius: 2%;
+}
+.container-title{
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  margin: 0;
+}
+.paragraph{
+  color: limegreen;
+  margin-bottom: 5px;
+}
+
+img{
+  width: 200px;
+}
+
+.container-button{
+    background: limegreen;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    column-gap: 10px;
+}
+
+.input{
+  display: flex;
+  column-gap: 5px;
+  align-items: center;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+h3{
+  margin: 0;
+}
+p{
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+ul {
+  padding-left: 0;
+  list-style-type: none;
+}
+
+li {
+  margin-bottom: 30px;
+}
+
+.stato-ricarica-orange {
+  width: 35%;
+  height: 25px;
+  background: orange;
+  border-radius: 3px;
+}
+.stato-ricarica-green {
+  width: 60%;
+  height: 25px;
+  background: green;
+  border-radius: 3px;
+}
+.stato-ricarica-red {
+  width: 18%;
+  height: 25px;
+  background: red;
+  border-radius: 3px;
+}
+.container-down{
+  color: white;
+}
